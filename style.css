@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+.brand img{
+    width: 48px;
+    padding: 0px 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 70vw;
+    margin: 23px auto;
+    padding: 34px;
+    border-radius: 12px;
+    background-image: url('closeup-dj-working-blue-light.jpg') ;
+    background-size: cover;
+    
+
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    padding: 8px;
+    cursor: pointer;
+}
+
+.songItem{
+    height:50px;
+    display: flex;
+    background-color: white;
+    -moz-window-shadow: 80vw;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    margin: 7px 0px;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+.songItem img{
+    width: 40px;
+    margin: 0px 23px;
+    border-radius: 100px;
+}
+.timeStamp i{
+    margin: 0px 23px;
+    cursor: pointer;
+}
+.timeStamp{
+    margin:0px 23px ;
+}
+.songInfo{
+    position: absolute;
+    font-family: 'Varela Round', sans-serif;
+    left: 10vw;
+}
+.songInfo img{
+   opacity: 0;
+   transition: opacity 0.3s ease-in;
+}
+
